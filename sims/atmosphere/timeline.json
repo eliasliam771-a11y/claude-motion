@@ -1,0 +1,19 @@
+{
+  "duration": 24,
+  "off": 4.0,
+  "slow": 0.4,
+  "event": 5.0,
+  "back": 16.5,
+  "windows": 1.7,
+  "boil": 3.0,
+  "captions": [
+    [0.25, 3.85, "What if Earth's atmosphere disappeared for 5 seconds?"],
+    [4.1, 6.3, "The sky turns black. Stars at 10 in the morning."],
+    [6.4, 8.5, "Every tower is still full of air, pushing out."],
+    [8.6, 10.7, "10 tonnes on every square metre of glass. It gives."],
+    [10.8, 13.0, "In total silence. Sound needs air to travel."],
+    [13.1, 16.3, "With no pressure, water boils at body temperature."],
+    [16.5, 19.1, "At second 5 the air slams back in. One giant boom."],
+    [19.3, 23.9, "Five seconds without air. The sky comes back. The windows don't."]
+  ]
+}

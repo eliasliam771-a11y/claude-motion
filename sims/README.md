@@ -24,6 +24,7 @@ Open the HTML file in a browser and it plays live and loops (space pauses,
 | [`crawlers`](crawlers/) | One spider agent doubles every 2 beats (1 → 256) across 16 made-up websites; every word a foot lands on lights up; the camera pulls back to the whole wall. [On X](https://x.com/whaleyxbt/status/2106099822088331481) | Real DOM text as terrain: every word is wrapped and measured, feet hit-test it. Procedural legs (2-bone IK, alternating gait). Doublings snap to the music's beat grid. |
 | [`dossier`](dossier/) | The same swarm aimed at one fictional person: each public page leaks one detail, the nearest agent walks to it, a red thread carries it into a dossier. [On X](https://x.com/whaleyxbt/status/2106420024286031963) | "Hunter" agents steered to a target by a set time; screen-space threads from world-space words; facts land on the beat. |
 | [`engine`](engine/) | A methane rocket engine running above a sunset cloud deck: the skirt opens, chapters light the flows, the camera flies through the chamber and throat into the plume, then the engine comes apart and back together. | three.js with sky + environment lighting, clipping-plane cutaway, glowing flow tubes, a plume volume with shock diamonds, a Python sound script on the same `timeline.json`. |
+| [`atmosphere`](atmosphere/) | What if the atmosphere disappeared for 5 seconds, over a procedural BGC (Taguig) skyline: the sky goes black with stars, towers blow their glass outward, pools boil, and the air slams back with one boom. 9:16, the five airless seconds in 0.4x slow motion. | Screen time mapped to event time (real, slow-mo, real), ballistic shards and puffs computed in the vertex shader from birth times, window-by-window blowout in a facade shader, word-by-word captions, a numpy sound script that goes silent when the air does. |
 
 Everything in the examples is invented: no real people, brands or domains
 (`.example`). Caption figures in `engine` are rounded textbook values.
@@ -50,6 +51,10 @@ node sims/capture.mjs crawlers --music path/to/track.mp3 --to 20 --out out/sims/
 # with a generated sound bed (engine)
 python3 sims/engine/sound.py
 node sims/capture.mjs engine --music out/sims/engine/ambient.wav --music-start 0 --no-sync --lufs -24 --out out/sims/engine.mp4
+
+# atmosphere: 9:16 at 1080x1920
+python3 sims/atmosphere/sound.py
+node sims/capture.mjs atmosphere --size 1080x1920 --dpr 1 --music out/sims/atmosphere/sound.wav --music-start 0 --no-sync --lufs -16 --out out/sims/atmosphere.mp4
 ```
 
 Other flags: `--config post.json` (merged over the sim's `DEFAULTS`),
