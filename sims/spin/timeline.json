@@ -1,0 +1,37 @@
+{
+  "duration": 29.5,
+  "fps": 30,
+  "slow": {"start": 2.4, "world": 20, "s0": 0.5, "s1": 2.0, "pow": 1.2, "in": 0.25, "out": 0.6},
+  "cam": [
+    [0.0, "friend", 74],
+    [7.4, "friend", 74],
+    [8.1, "shadow", 70],
+    [10.2, "shadow", 70],
+    [10.8, "glass", 60],
+    [13.0, "glass", 60],
+    [13.6, "flag", 66],
+    [15.6, "flag", 66],
+    [16.3, "sky", 74],
+    [18.8, "sky", 74],
+    [19.6, "north", 64],
+    [21.8, "north", 64],
+    [23.8, "wave2", 70],
+    [26.1, "wave3", 74],
+    [29.5, "wave3", 74]
+  ],
+  "react": {"look": 22.4, "stop": 22.5, "resume": 99},
+  "pour": {"lift": -2.9, "tilt": -1.6, "end": 1.6, "down": 2.8},
+  "tsunami": {"at": 21.7, "hit": 26.4, "z0": -48, "z1": -1.8, "h0": 5.5, "h1": 7.0},
+  "panel": [[2.7, 7.75], [10.5, 13.05], [15.9, 21.6]],
+  "captions": [
+    {"at": 2.7, "until": 5.0, "hit": 2.4, "head": "Earth spins 2x faster", "sub": "Air, oceans and you spin with it. If not: 1,200 km/h winds."},
+    {"at": 5.2, "until": 7.6, "hit": 5.2, "head": "You get 0.5% lighter", "sub": "4x the centrifugal pull: 70 kg reads 69.6 kg."},
+    {"at": 7.9, "until": 10.3, "hit": 7.9, "head": "A day lasts 12 hours", "sub": "The Sun still crawls: 0.008° a second."},
+    {"at": 10.5, "until": 13.0, "hit": 10.5, "head": "The oceans start sliding", "sub": "Toward the equator, a bit faster every second."},
+    {"at": 13.3, "until": 15.6, "hit": 13.3, "head": "So does the air", "sub": "A breeze toward the equator, building to 1 m/s."},
+    {"at": 15.9, "until": 18.6, "hit": 15.9, "head": "Earth gains 6 × 10²⁹ J", "sub": "4x the spin energy: 28 minutes of the Sun's output."},
+    {"at": 19.45, "until": 21.6, "hit": 19.32, "head": "Back to normal", "sub": "But the oceans are still moving at 1 m/s."},
+    {"at": 21.9, "until": 26.05, "hit": 21.9, "stamp": "then", "head": "Tsunamis", "sub": "Where that water hits a coast, it piles up metres high."}
+  ],
+  "end": 26.7
+}
