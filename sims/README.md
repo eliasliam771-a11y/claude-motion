@@ -25,6 +25,7 @@ Open the HTML file in a browser and it plays live and loops (space pauses,
 | [`dossier`](dossier/) | The same swarm aimed at one fictional person: each public page leaks one detail, the nearest agent walks to it, a red thread carries it into a dossier. [On X](https://x.com/whaleyxbt/status/2106420024286031963) | "Hunter" agents steered to a target by a set time; screen-space threads from world-space words; facts land on the beat. |
 | [`engine`](engine/) | A methane rocket engine running above a sunset cloud deck: the skirt opens, chapters light the flows, the camera flies through the chamber and throat into the plume, then the engine comes apart and back together. | three.js with sky + environment lighting, clipping-plane cutaway, glowing flow tubes, a plume volume with shock diamonds, a Python sound script on the same `timeline.json`. |
 | [`atmosphere`](atmosphere/) | What if the atmosphere disappeared for 5 seconds, over a procedural BGC (Taguig) skyline: the sky goes black with stars, towers blow their glass outward, pools boil, and the air slams back with one boom. 9:16, the five airless seconds in 0.4x slow motion. | Screen time mapped to event time (real, slow-mo, real), ballistic shards and puffs computed in the vertex shader from birth times, window-by-window blowout in a facade shader, word-by-word captions, a numpy sound script that goes silent when the air does. |
+| [`concrete`](concrete/) | What if all concrete vanished for 5 seconds on BGC's High Street, over one pedestrian's shoulder: sidewalks drop a slab's thickness, towers become rebar cages, curtain walls slide off in free fall, lamp posts topple, a crowd reacts, and the concrete returns around everyone's feet. 9:16, 0.4x slow motion. | A procedural instanced crowd (capsule rigs, walk cycle, reactions) posed every frame, a facade shader that swaps to rebar with dithered discard and slides the glass sheet by 4.9 te², interior rebar mats that lean in the vertex shader, toppling posts as an inverted pendulum. |
 
 Everything in the examples is invented: no real people, brands or domains
 (`.example`). Caption figures in `engine` are rounded textbook values.
@@ -55,6 +56,10 @@ node sims/capture.mjs engine --music out/sims/engine/ambient.wav --music-start 0
 # atmosphere: 9:16 at 1080x1920
 python3 sims/atmosphere/sound.py
 node sims/capture.mjs atmosphere --size 1080x1920 --dpr 1 --music out/sims/atmosphere/sound.wav --music-start 0 --no-sync --lufs -16 --out out/sims/atmosphere.mp4
+
+# concrete: 9:16 at 1080x1920, 30 fps
+python3 sims/concrete/sound.py
+node sims/capture.mjs concrete --size 1080x1920 --dpr 1 --fps 30 --music out/sims/concrete/sound.wav --music-start 0 --no-sync --lufs -16 --out out/sims/concrete.mp4
 ```
 
 Other flags: `--config post.json` (merged over the sim's `DEFAULTS`),

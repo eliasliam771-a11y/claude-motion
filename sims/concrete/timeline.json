@@ -1,0 +1,18 @@
+{
+  "duration": 24,
+  "off": 4.0,
+  "slow": 0.4,
+  "event": 5.0,
+  "back": 16.5,
+  "slab": 0.3,
+  "captions": [
+    [0.25, 3.85, "What if all concrete vanished for 5 seconds?"],
+    [4.1, 6.4, "The sidewalk drops away."],
+    [6.5, 9.0, "Towers turn to rebar."],
+    [9.1, 11.6, "Nothing holds the glass."],
+    [11.7, 14.0, "Lamp posts fall."],
+    [14.1, 16.3, "The steel starts to bend."],
+    [16.5, 19.2, "Second 5: it all comes back."],
+    [19.4, 23.9, "Right where it was. Around your feet."]
+  ]
+}
