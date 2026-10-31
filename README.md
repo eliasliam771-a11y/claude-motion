@@ -164,6 +164,7 @@ Pair it with the official [Remotion agent skills](https://www.remotion.dev/docs/
 | [**03 · What if the Sun disappeared for 15 seconds?**](examples/03-no-sun-what-if/) | The same street with the real physics: 8 min 19 s of nothing at 225x, then 15 s of night at 0.1x. 38 s, 9:16, one prompt. |
 | [**04 · What if all oxygen disappeared for 5 seconds?**](examples/04-oxygen-what-if/) | The viral one with only true claims: pressure drop, every flame out, petrol engines stall, the sky stays blue, the grid trips. 24 s, 9:16, one prompt. |
 | [**05 · What if all atoms disappeared for 5 seconds?**](examples/05-atoms-what-if/) | The café dissolves into space: stars under your feet, the Sun still shining on its own light delay, what's left when nothing is made of atoms. 27 s, 9:16, one prompt. |
+| [**06 · What if all baddies disappeared for 5 seconds?**](examples/06-baddies-what-if/) | A joke one with real free-fall physics for what they drop, and a tsunami twist over the rooftops. 29 s, 9:16, one prompt and two answers. |
 | *yours?* | [Add it →](CONTRIBUTING.md) |
 
 ## Requirements

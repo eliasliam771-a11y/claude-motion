@@ -1,0 +1,174 @@
+{
+  "duration": 29,
+  "fps": 30,
+  "slow": {
+    "start": 2.4,
+    "world": 5,
+    "s0": 0.1,
+    "s1": 0.6,
+    "pow": 1.5,
+    "in": 0.25,
+    "out": 0.6
+  },
+  "cam": [
+    [
+      0.0,
+      "friend",
+      74
+    ],
+    [
+      3.1,
+      "friend",
+      74
+    ],
+    [
+      3.7,
+      "table",
+      64
+    ],
+    [
+      5.3,
+      "table",
+      64
+    ],
+    [
+      6.0,
+      "coffee",
+      42
+    ],
+    [
+      8.7,
+      "coffee",
+      42
+    ],
+    [
+      9.5,
+      "ring",
+      34
+    ],
+    [
+      12.1,
+      "ring",
+      34
+    ],
+    [
+      12.9,
+      "street",
+      74
+    ],
+    [
+      15.7,
+      "street",
+      74
+    ],
+    [
+      16.5,
+      "chair",
+      74
+    ],
+    [
+      21.2,
+      "chair",
+      74
+    ],
+    [
+      21.9,
+      "wave",
+      56
+    ],
+    [
+      23.7,
+      "wave2",
+      64
+    ],
+    [
+      25.4,
+      "wave3",
+      74
+    ],
+    [
+      29.0,
+      "wave3",
+      74
+    ]
+  ],
+  "react": {
+    "look": 7.5,
+    "stop": 7.6,
+    "resume": 99
+  },
+  "pour": {
+    "lift": -2.9,
+    "tilt": -1.6,
+    "end": 1.6,
+    "down": 2.8
+  },
+  "tsunami": {
+    "at": 21.5,
+    "hit": 25.6,
+    "z0": -66,
+    "z1": -2.5,
+    "h0": 46,
+    "h1": 17
+  },
+  "captions": [
+    {
+      "at": 2.65,
+      "until": 4.0,
+      "hit": 2.4,
+      "head": "Every baddie vanishes",
+      "sub": "Their stuff doesn't."
+    },
+    {
+      "at": 4.1,
+      "until": 5.9,
+      "hit": 4.6,
+      "head": "Your friend was a baddie",
+      "sub": "Their bottle drops 25 cm in 0.23 s."
+    },
+    {
+      "at": 6.05,
+      "until": 8.6,
+      "hit": 6.75,
+      "head": "Gravity doesn't care",
+      "sub": "An iced coffee falls 1.2 m in half a second."
+    },
+    {
+      "at": 9.65,
+      "until": 12.0,
+      "hit": 9.65,
+      "head": "Ring lights shine on nobody",
+      "sub": "The livestream keeps rolling."
+    },
+    {
+      "at": 12.95,
+      "until": 15.6,
+      "hit": 12.95,
+      "head": "The street lost its\nmain characters",
+      "sub": "Everyone else keeps walking."
+    },
+    {
+      "at": 16.6,
+      "until": 18.95,
+      "hit": 16.6,
+      "head": "Respawning in 3, 2, 1",
+      "sub": "Same spot. Same outfit."
+    },
+    {
+      "at": 19.3,
+      "until": 21.25,
+      "hit": 19.07,
+      "head": "They're back",
+      "sub": "Their drinks aren't."
+    },
+    {
+      "at": 21.85,
+      "until": 25.45,
+      "hit": 21.85,
+      "stamp": "plot twist",
+      "head": "A tsunami",
+      "sub": "Nothing to do with baddies. Run!"
+    }
+  ],
+  "end": 25.95
+}
