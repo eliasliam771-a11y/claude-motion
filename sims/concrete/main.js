@@ -145,7 +145,7 @@ varying float vA;
 void main(){
   vec2 p = gl_PointCoord - 0.5; float d = dot(p, p) * 4.0;
   if (d > 1.0) discard;
-  gl_FragColor = vec4(uCol, vA * pow(1.0 - d, 1.5));
+  gl_FragColor = vec4(uCol, vA * pow(1.0 - d, 2.5));
 }`;
 
 runSim(DEFAULTS, async ({cfg, canvas, hud, capture}) => {
@@ -235,7 +235,8 @@ runSim(DEFAULTS, async ({cfg, canvas, hud, capture}) => {
         diffuseColor.rgb = c;`,
       );
   };
-  const ground = new THREE.Mesh(new THREE.PlaneGeometry(120000, 120000), groundMat);
+  // subdivided: one giant quad gets its depth wrong next to the camera in software GL
+  const ground = new THREE.Mesh(new THREE.PlaneGeometry(120000, 120000, 400, 400), groundMat);
   ground.rotation.x = -Math.PI / 2;
   ground.receiveShadow = true;
   scene.add(ground);
@@ -639,7 +640,7 @@ runSim(DEFAULTS, async ({cfg, canvas, hud, capture}) => {
     const a = R() * Math.PI * 2, sp = 0.5 + R() * 2;
     V.set([Math.cos(a) * sp, 0.3 + R() * 1.2, Math.sin(a) * sp], i * 3);
     B.set([second ? EV + R() * 0.2 : 0.2 + R() * 0.3, 1.5 + R() * 2], i * 2);
-    S.set([0.3, 2 + R() * 3, 0.22], i * 3);
+    S.set([1.2, 5 + R() * 5, 0.1], i * 3);
   }, dustMat);
 
   // ---- overlay
@@ -677,10 +678,11 @@ runSim(DEFAULTS, async ({cfg, canvas, hud, capture}) => {
     [8, [-2.4, 2.2, 3.6], [2, 14, -40]],
     [11.5, [-3.2, 6.5, 9], [0, 2, -32]],
     [14.8, [-3.8, 21, 17], [14, 70, -95]],
-    [16.5, [-3.6, 19, 15], [12, 60, -80]],
-    [18.2, [-1.6, 0.75, -2.5], [0, 0.35, 0]],
-    [21, [-1.2, 0.55, -1.9], [0, 0.2, 0]],
-    [24, [-2.6, 3.1, 4.8], [0.5, 9, -40]],
+    [16.5, [-3.6, 19, 15], [8, 60, -80]],
+    [17.5, [-4, 5, 2], [-1, 2, -14]],
+    [18.6, [-2.4, 1.5, -4.6], [0, 0.4, 0]],
+    [21, [-1.9, 1.05, -3.5], [0, 0.15, 0]],
+    [24, [-2.8, 2.9, -7.5], [0, 1.9, 6]],
   ];
   const curve = (j) => new THREE.CatmullRomCurve3(KEYS.map((k) => new THREE.Vector3(...k[j])), false, 'centripetal');
   const offC = curve(1), lookC = curve(2);
@@ -757,6 +759,8 @@ runSim(DEFAULTS, async ({cfg, canvas, hud, capture}) => {
         camera.position.x += (hash(f) - 0.5) * shake;
         camera.position.y += (hash(f + 77) - 0.5) * shake;
       }
+      // never into the shopfronts east of the sidewalk
+      camera.position.x = Math.min(camera.position.x, HERO.x + 1.2);
       camera.position.y = Math.max(camera.position.y, (gone ? -SLAB : 0) + 0.22);
       camera.lookAt(look.add(H));
       sky.position.copy(camera.position);
