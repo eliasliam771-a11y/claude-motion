@@ -1,0 +1,173 @@
+{
+  "duration": 38,
+  "fps": 30,
+  "clock": {
+    "vanish": 2.5,
+    "hold": 1.3,
+    "ff": 4.4,
+    "decel": 0.35,
+    "pre": 0.8,
+    "light": 499.0,
+    "dark": 15,
+    "s0": 0.1,
+    "s1": 1.3,
+    "pow": 1.2,
+    "out": 0.5
+  },
+  "cam": [
+    [
+      0.0,
+      "friend",
+      74
+    ],
+    [
+      2.55,
+      "friend",
+      74
+    ],
+    [
+      3.55,
+      "sun",
+      64
+    ],
+    [
+      4.65,
+      "sun",
+      64
+    ],
+    [
+      5.7,
+      "streetS",
+      74
+    ],
+    [
+      8.1,
+      "streetS",
+      74
+    ],
+    [
+      8.95,
+      "friend2",
+      74
+    ],
+    [
+      12.4,
+      "friend2",
+      74
+    ],
+    [
+      13.5,
+      "moon",
+      64
+    ],
+    [
+      20.9,
+      "moon",
+      64
+    ],
+    [
+      21.9,
+      "busstop",
+      70
+    ],
+    [
+      24.95,
+      "busstop",
+      70
+    ],
+    [
+      25.75,
+      "friendLow",
+      74
+    ],
+    [
+      38.0,
+      "friendLow",
+      74
+    ]
+  ],
+  "dark": {
+    "stop": 0.6,
+    "look": 0.35,
+    "moon": 1.28,
+    "headlights": 4.8,
+    "phones": [
+      3.0,
+      6.5
+    ],
+    "resume": 15.6
+  },
+  "inset": {
+    "in": 2.7,
+    "out": 12.2,
+    "orbitIn": 25.6,
+    "orbitOut": 28.7
+  },
+  "captions": [
+    {
+      "at": 2.75,
+      "until": 4.6,
+      "hit": 2.5,
+      "head": "The Sun just vanished",
+      "sub": "Look up. It's still shining."
+    },
+    {
+      "at": 4.8,
+      "until": 8.35,
+      "hit": 2.5,
+      "stamp": "0:00 → 8:19",
+      "head": "Nothing happens\nfor 8 min 19 s",
+      "sub": "That's how long sunlight takes to get here."
+    },
+    {
+      "at": 9.6,
+      "until": 12.3,
+      "hit": 9.35,
+      "head": "The sky goes black",
+      "sub": "Daylight was sunlight scattered by the air."
+    },
+    {
+      "at": 15.65,
+      "until": 18.05,
+      "hit": 15.45,
+      "head": "The Moon goes dark\n1.3 s later",
+      "sub": "Moonlight is sunlight, delayed by the trip."
+    },
+    {
+      "at": 18.25,
+      "until": 20.8,
+      "hit": 18.25,
+      "head": "The brightest stars\ncome out",
+      "sub": "Jupiter keeps shining for over an hour."
+    },
+    {
+      "at": 22.05,
+      "until": 24.85,
+      "hit": 22.25,
+      "head": "Phones and headlights\ncome on",
+      "sub": "Every solar panel on the day side: 0 W."
+    },
+    {
+      "at": 25.85,
+      "until": 28.65,
+      "hit": 25.85,
+      "head": "Earth stops curving",
+      "sub": "Without the Sun's pull it drifts 67 cm off its orbit."
+    },
+    {
+      "at": 28.85,
+      "until": 32.4,
+      "hit": 28.85,
+      "head": "Your eyes are still adjusting",
+      "sub": "Full night vision takes 20 to 30 minutes."
+    },
+    {
+      "at": 32.85,
+      "until": 35.3,
+      "hit": 32.6,
+      "head": "The Sun is back",
+      "sub": "After 15 seconds of night."
+    }
+  ],
+  "end": 35.45
+}
