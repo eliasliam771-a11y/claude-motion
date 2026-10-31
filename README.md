@@ -163,6 +163,7 @@ Pair it with the official [Remotion agent skills](https://www.remotion.dev/docs/
 | [**02 · What if all selenium disappeared?**](examples/02-selenium-what-if/) | TikTok what-if in first person, 0.1x → 0.6x slow motion, a 3D street with people. 24 s, 9:16, one prompt. |
 | [**03 · What if the Sun disappeared for 15 seconds?**](examples/03-no-sun-what-if/) | The same street with the real physics: 8 min 19 s of nothing at 225x, then 15 s of night at 0.1x. 38 s, 9:16, one prompt. |
 | [**04 · What if all oxygen disappeared for 5 seconds?**](examples/04-oxygen-what-if/) | The viral one with only true claims: pressure drop, every flame out, petrol engines stall, the sky stays blue, the grid trips. 24 s, 9:16, one prompt. |
+| [**05 · What if all atoms disappeared for 5 seconds?**](examples/05-atoms-what-if/) | The café dissolves into space: stars under your feet, the Sun still shining on its own light delay, what's left when nothing is made of atoms. 27 s, 9:16, one prompt. |
 | *yours?* | [Add it →](CONTRIBUTING.md) |
 
 ## Requirements

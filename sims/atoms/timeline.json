@@ -1,0 +1,185 @@
+{
+  "duration": 27,
+  "fps": 30,
+  "slow": {
+    "start": 2.4,
+    "world": 5,
+    "s0": 0.1,
+    "s1": 0.6,
+    "pow": 1.5,
+    "in": 0.25,
+    "out": 0.6
+  },
+  "dissolve": 0.09,
+  "cam": [
+    [
+      0.0,
+      "friend",
+      74
+    ],
+    [
+      3.25,
+      "friend",
+      74
+    ],
+    [
+      4.15,
+      "down",
+      74
+    ],
+    [
+      6.0,
+      "down",
+      74
+    ],
+    [
+      6.8,
+      "sun",
+      64
+    ],
+    [
+      8.45,
+      "sun",
+      64
+    ],
+    [
+      9.3,
+      "moon",
+      60
+    ],
+    [
+      12.4,
+      "moon",
+      60
+    ],
+    [
+      13.15,
+      "around",
+      74
+    ],
+    [
+      15.0,
+      "around",
+      74
+    ],
+    [
+      15.75,
+      "earth",
+      74
+    ],
+    [
+      17.3,
+      "earth",
+      74
+    ],
+    [
+      18.0,
+      "friendBody",
+      74
+    ],
+    [
+      21.4,
+      "friendBody",
+      74
+    ],
+    [
+      22.2,
+      "street",
+      74
+    ],
+    [
+      27.0,
+      "street2",
+      74
+    ]
+  ],
+  "react": {
+    "look": 99,
+    "stop": 99,
+    "resume": 99
+  },
+  "pour": {
+    "lift": -2.9,
+    "tilt": -1.6,
+    "end": 1.6,
+    "down": 2.8
+  },
+  "left": [
+    12.9,
+    13.5,
+    15.85,
+    16.45
+  ],
+  "leftOut": 17.35,
+  "gap": [
+    21.5,
+    24.15
+  ],
+  "captions": [
+    {
+      "at": 2.7,
+      "until": 4.25,
+      "hit": 2.4,
+      "head": "Every atom is gone",
+      "sub": "You, the street, the air. Earth itself."
+    },
+    {
+      "at": 4.4,
+      "until": 6.1,
+      "hit": 2.8,
+      "head": "Stars under your feet",
+      "sub": "Earth is no longer in the way."
+    },
+    {
+      "at": 6.85,
+      "until": 8.6,
+      "hit": 6.85,
+      "head": "The Sun still shines",
+      "sub": "8 min 19 s of its light is still on the way."
+    },
+    {
+      "at": 10.35,
+      "until": 12.35,
+      "hit": 10.2,
+      "head": "The Moon vanishes\n1.3 s later",
+      "sub": "Its last light was still on the way."
+    },
+    {
+      "at": 13.0,
+      "until": 15.05,
+      "hit": 13.0,
+      "head": "What's left?\nLight and neutrinos",
+      "sub": "Neutrinos pass through everything anyway."
+    },
+    {
+      "at": 15.85,
+      "until": 17.3,
+      "hit": 15.85,
+      "head": "And under 1 kg\nof dark matter",
+      "sub": "That's all of it inside Earth's volume."
+    },
+    {
+      "at": 17.45,
+      "until": 19.0,
+      "hit": 17.45,
+      "head": "Nobody will remember this",
+      "sub": "No atoms, no brains, no memories."
+    },
+    {
+      "at": 19.3,
+      "until": 21.4,
+      "hit": 19.07,
+      "head": "Everything is back",
+      "sub": "Nobody noticed a thing."
+    },
+    {
+      "at": 21.55,
+      "until": 24.15,
+      "hit": 21.55,
+      "stamp": "+ 8 min 19 s",
+      "head": "Then the Sun blinks off",
+      "sub": "Its light has a 5-second gap on the way."
+    }
+  ],
+  "end": 24.3
+}
