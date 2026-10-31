@@ -1,0 +1,34 @@
+{
+  "duration": 24,
+  "fps": 30,
+  "slow": {"start": 2.4, "world": 5, "s0": 0.1, "s1": 0.6, "pow": 1.5, "in": 0.25, "out": 0.6},
+  "ripple": [[2.4, 0], [3.15, 1.0], [5.6, 2.3], [7.4, 6.8], [9.4, 17.5], [10.9, 30.5], [12.6, 44], [13.5, 51], [19.07, 220]],
+  "cam": [
+    [0.0, "friend", 74],
+    [2.3, "friend", 74],
+    [2.95, "table", 62],
+    [5.25, "table", 62],
+    [6.0, "chairs", 72],
+    [8.35, "chairs", 72],
+    [9.15, "facade", 70],
+    [12.15, "facade", 70],
+    [12.9, "billboard", 50],
+    [15.85, "billboard", 50],
+    [16.55, "friendBody", 74],
+    [19.0, "friendBody", 74],
+    [20.2, "street", 74],
+    [24.0, "street2", 74]
+  ],
+  "holo": {"in": 16.2, "scan": 16.45, "scanEnd": 17.7, "out": 18.85},
+  "react": {"look": 2.55, "stop": 2.7, "resume": 5.4},
+  "pour": {"lift": -2.9, "tilt": -1.6, "end": 1.6, "down": 2.8},
+  "captions": [
+    {"at": 3.35, "until": 5.45, "hit": 3.0, "head": "Clear glass turns green", "sub": "Selenium was hiding the iron tint."},
+    {"at": 6.45, "until": 8.55, "hit": 6.3, "head": "Cadmium red turns yellow", "sub": "Without selenium it is cadmium sulfide."},
+    {"at": 10.05, "until": 12.35, "hit": 9.9, "head": "Solar facades drop to 0 W", "sub": "Half the atoms in a CIGS cell are selenium."},
+    {"at": 13.55, "until": 16.05, "hit": 13.2, "head": "Screens turn blue", "sub": "Their red and green come from cadmium selenide dots."},
+    {"at": 16.7, "until": 18.95, "hit": 16.7, "head": "25 of your proteins stall", "sub": "Each one is built around selenium."},
+    {"at": 19.25, "until": 21.35, "hit": 19.07, "head": "Selenium is back", "sub": "Five seconds is too short for your body to notice."}
+  ],
+  "end": 21.45
+}

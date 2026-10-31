@@ -160,6 +160,7 @@ Pair it with the official [Remotion agent skills](https://www.remotion.dev/docs/
 | | |
 |---|---|
 | [**01 · Spending your effort**](examples/01-effort/) | Claude Code `/effort` explained. 22 s, one prompt + one revision. |
+| [**02 · What if all selenium disappeared?**](examples/02-selenium-what-if/) | TikTok what-if in first person, 0.1x → 0.6x slow motion, a 3D street with people. 24 s, 9:16, one prompt. |
 | *yours?* | [Add it →](CONTRIBUTING.md) |
 
 ## Requirements
