@@ -1,0 +1,65 @@
+/* Overlay for the strontium what-if: laid out on a 1080x1920 canvas and scaled.
+   Keeps clear of the TikTok chrome: top bar (~140 px), right rail (~140 px),
+   caption/user block at the bottom (~380 px). */
+.se-ov { position: absolute; left: 0; top: 0; transform-origin: 0 0; pointer-events: none; z-index: 6; color: #fff; font-family: Inter, sans-serif; }
+.se-vig { position: absolute; inset: 0; background: radial-gradient(ellipse 75% 62% at 50% 46%, rgba(0,0,0,0) 55%, rgba(2,2,8,0.6) 100%); }
+.se-lines { position: absolute; left: 0; top: 0; }
+
+.se-title {
+  position: absolute; left: 60px; right: 60px; top: 150px; text-align: center; transform-origin: 50% 0;
+  font: 800 72px/1.08 Inter, sans-serif; letter-spacing: -0.015em;
+  -webkit-text-stroke: 14px #000; paint-order: stroke fill;
+  text-shadow: 0 6px 24px rgba(0,0,0,0.35);
+}
+.se-title em { font-style: normal; color: #ff4d6d; }
+
+.se-tile { position: absolute; left: 50%; top: 560px; width: 236px; height: 262px; margin-left: -118px; }
+.se-tile i { position: absolute; display: block; background-repeat: no-repeat; }
+
+.se-hud { position: absolute; left: 70px; right: 70px; top: 352px; display: flex; justify-content: space-between; align-items: center; }
+.se-speed {
+  display: flex; align-items: center; gap: 12px; padding: 12px 26px 12px 20px; border-radius: 999px;
+  background: rgba(0,0,0,0.62); border: 2px solid rgba(255,255,255,0.22); transform-origin: 0 50%;
+}
+.se-speed svg { width: 34px; height: 34px; fill: #fff; transform: scaleX(-1); }
+.se-speed b { font: 700 46px/1 'JetBrains Mono', monospace; letter-spacing: -0.02em; min-width: 104px; }
+.se-speed.slow { background: rgba(225,30,70,0.94); border-color: rgba(255,200,215,0.9); color: #ffffff; }
+.se-speed.slow svg { fill: #ffffff; }
+.se-clock { display: flex; align-items: baseline; gap: 6px; padding: 10px 26px; border-radius: 18px; background: rgba(0,0,0,0.62); border: 2px solid rgba(255,255,255,0.22); }
+.se-clock b { font: 700 54px/1 'JetBrains Mono', monospace; font-variant-numeric: tabular-nums; letter-spacing: -0.03em; }
+.se-clock span { font: 700 30px 'JetBrains Mono', monospace; opacity: 0.8; }
+.se-clock.pre b { color: rgba(255,255,255,0.75); }
+.se-clock.run b { color: #ff4d6d; }
+.se-clock.done b { color: #8ff0b0; }
+
+.se-track { position: absolute; left: 80px; right: 80px; top: 452px; height: 8px; border-radius: 4px; background: rgba(0,0,0,0.45); box-shadow: 0 0 0 2px rgba(255,255,255,0.18); }
+.se-track i { position: absolute; left: 0; top: 0; bottom: 0; border-radius: 4px; background: #ff4d6d; }
+.se-track em { position: absolute; top: -6px; width: 3px; height: 20px; margin-left: -1.5px; border-radius: 2px; background: rgba(255,255,255,0.85); }
+.se-track em span { position: absolute; top: 24px; left: 50%; transform: translateX(-50%); font: 700 22px 'JetBrains Mono', monospace; font-style: normal; color: #fff; -webkit-text-stroke: 5px #000; paint-order: stroke fill; }
+
+.se-cap { position: absolute; left: 44px; right: 124px; top: 1170px; display: flex; flex-direction: column; align-items: center; gap: 14px; text-align: center; opacity: 0; }
+.se-stamp { font: 700 32px/1 'JetBrains Mono', monospace; color: #ffffff; background: #ff4d6d; padding: 10px 18px; border-radius: 12px; }
+.se-head { font: 800 68px/1.04 Inter, sans-serif; letter-spacing: -0.02em; -webkit-text-stroke: 14px #000; paint-order: stroke fill; text-shadow: 0 6px 24px rgba(0,0,0,0.35); }
+.se-sub { font: 700 42px/1.18 Inter, sans-serif; -webkit-text-stroke: 9px #000; paint-order: stroke fill; max-width: 840px; }
+
+.se-lab {
+  position: absolute; display: flex; flex-direction: column; gap: 5px; padding: 12px 18px; border-radius: 14px;
+  background: rgba(10,10,14,0.78); border: 2px solid rgba(255,77,109,0.85); white-space: nowrap; opacity: 0;
+}
+.se-lab b { font: 700 25px 'JetBrains Mono', monospace; letter-spacing: 0.04em; color: #ff4d6d; }
+.se-lab span { font: 600 24px Inter, sans-serif; color: rgba(255,255,255,0.92); }
+.se-lab span b { font: 700 24px 'JetBrains Mono', monospace; color: #fff; letter-spacing: 0; }
+.se-lab span s { color: rgba(255,255,255,0.45); }
+.se-lab sub { font-size: 0.7em; }
+
+.se-end { position: absolute; left: 60px; right: 150px; top: 50%; display: flex; flex-direction: column; align-items: center; gap: 22px; text-align: center; opacity: 0; transform-origin: 50% 50%; }
+.se-end b { font: 900 96px/1.02 Inter, sans-serif; letter-spacing: -0.025em; -webkit-text-stroke: 18px #000; paint-order: stroke fill; }
+.se-end span { font: 700 44px Inter, sans-serif; padding: 14px 30px; border-radius: 999px; background: #ff4d6d; color: #ffffff; }
+.se-flash { position: absolute; inset: 0; background: #fff6e8; opacity: 0; }
+.se-speed svg { width: 44px; height: 31px; transform: none; }
+.se-speed svg path, .se-speed svg g path { stroke: #fff; }
+.se-speed svg circle { fill: #fff; }
+.se-speed.slow svg path { stroke: #ffffff; }
+.se-speed.slow svg circle { fill: #ffffff; }
+.sr-panel { position: absolute; left: 0; top: 0; }
+.se-lab sup { font-size: 0.7em; }
