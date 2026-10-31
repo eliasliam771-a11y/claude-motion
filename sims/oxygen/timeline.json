@@ -1,0 +1,149 @@
+{
+  "duration": 24,
+  "fps": 30,
+  "slow": {
+    "start": 2.4,
+    "world": 5,
+    "s0": 0.1,
+    "s1": 0.6,
+    "pow": 1.5,
+    "in": 0.25,
+    "out": 0.6
+  },
+  "blackout": 2.62,
+  "cam": [
+    [
+      0.0,
+      "friend",
+      74
+    ],
+    [
+      4.45,
+      "friend",
+      74
+    ],
+    [
+      5.25,
+      "heater",
+      68
+    ],
+    [
+      7.35,
+      "heater",
+      68
+    ],
+    [
+      8.1,
+      "road",
+      70
+    ],
+    [
+      10.55,
+      "road",
+      70
+    ],
+    [
+      11.35,
+      "sky",
+      66
+    ],
+    [
+      13.95,
+      "sky",
+      66
+    ],
+    [
+      14.65,
+      "billboard",
+      50
+    ],
+    [
+      16.75,
+      "billboard",
+      50
+    ],
+    [
+      17.4,
+      "friendBody",
+      74
+    ],
+    [
+      19.0,
+      "friendBody",
+      74
+    ],
+    [
+      20.2,
+      "street",
+      74
+    ],
+    [
+      24.0,
+      "street2",
+      74
+    ]
+  ],
+  "react": {
+    "look": 2.85,
+    "stop": 3.0,
+    "resume": 5.4
+  },
+  "pour": {
+    "lift": -2.9,
+    "tilt": -1.6,
+    "end": 1.6,
+    "down": 2.8
+  },
+  "captions": [
+    {
+      "at": 2.75,
+      "until": 4.5,
+      "hit": 2.4,
+      "head": "Air pressure drops 21%",
+      "sub": "Like jumping 2 km up. Your ears pop."
+    },
+    {
+      "at": 5.4,
+      "until": 7.4,
+      "hit": 2.4,
+      "head": "Every flame goes out",
+      "sub": "Fire needs oxygen. Candles, stoves, lighters."
+    },
+    {
+      "at": 8.3,
+      "until": 10.6,
+      "hit": 2.4,
+      "head": "Petrol engines stall",
+      "sub": "Electric cars keep driving."
+    },
+    {
+      "at": 11.5,
+      "until": 13.95,
+      "hit": 2.4,
+      "head": "The sky stays blue",
+      "sub": "Nitrogen scatters sunlight too. But the ozone layer is gone."
+    },
+    {
+      "at": 14.85,
+      "until": 16.8,
+      "hit": 14.9,
+      "head": "Power plants trip offline",
+      "sub": "Gas and coal need fire. The grid collapses."
+    },
+    {
+      "at": 17.5,
+      "until": 19.0,
+      "hit": 17.5,
+      "head": "Nobody passes out",
+      "sub": "You'd stay conscious for about 10 s."
+    },
+    {
+      "at": 19.25,
+      "until": 21.35,
+      "hit": 19.07,
+      "head": "Oxygen is back",
+      "sub": "The candles stay out. So does the power."
+    }
+  ],
+  "end": 21.45
+}
