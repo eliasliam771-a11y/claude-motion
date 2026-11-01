@@ -1,0 +1,100 @@
+{
+  "duration": 29,
+  "fps": 30,
+  "slow": {
+    "start": 2.4,
+    "world": 5,
+    "s0": 0.1,
+    "s1": 0.6,
+    "pow": 1.5,
+    "in": 0.25,
+    "out": 0.6
+  },
+  "cam": [
+    [0.0, "screen", 74],
+    [2.3, "screen", 74],
+    [4.9, "screen1", 66],
+    [5.55, "photog", 46],
+    [7.55, "photog", 46],
+    [8.25, "friend", 74],
+    [10.45, "friend", 74],
+    [11.1, "up", 72],
+    [13.25, "up", 72],
+    [13.95, "down", 66],
+    [16.05, "down", 66],
+    [16.75, "screen2", 74],
+    [21.2, "screen2", 74],
+    [21.9, "wave", 56],
+    [23.7, "wave2", 64],
+    [25.4, "wave3", 74],
+    [29.0, "wave3", 74]
+  ],
+  "tsunami": {
+    "at": 21.5,
+    "hit": 25.6,
+    "z0": -66,
+    "z1": -2.5,
+    "h0": 46,
+    "h1": 17
+  },
+  "captions": [
+    {
+      "at": 2.75,
+      "until": 4.95,
+      "hit": 2.4,
+      "head": "The movie goes dark",
+      "sub": "The projector's lamp is an arc through xenon. The sound keeps playing."
+    },
+    {
+      "at": 5.6,
+      "until": 7.6,
+      "hit": 5.85,
+      "head": "Camera flashes fire nothing",
+      "sub": "A flash tube is a spark through xenon. Phone LEDs still work."
+    },
+    {
+      "at": 8.4,
+      "until": 10.45,
+      "hit": 8.3,
+      "head": "The air is 2 billion tonnes lighter",
+      "sub": "Pressure drops 0.009 Pa: like raising your head 0.7 mm."
+    },
+    {
+      "at": 11.2,
+      "until": 13.25,
+      "hit": 11.05,
+      "head": "Ion engines in space shut off",
+      "sub": "Probes like Psyche fly on over a tonne of xenon."
+    },
+    {
+      "at": 14.0,
+      "until": 16.05,
+      "hit": 13.9,
+      "head": "A dark matter detector empties",
+      "sub": "10 tonnes of liquid xenon, 1.5 km underground."
+    },
+    {
+      "at": 16.8,
+      "until": 18.9,
+      "hit": 16.7,
+      "head": "Nothing else changes",
+      "sub": "Xenon is a noble gas. It barely reacts with anything."
+    },
+    {
+      "at": 19.25,
+      "until": 21.25,
+      "hit": 19.07,
+      "head": "Xenon is back",
+      "sub": "The projector's lamp can be struck again."
+    },
+    {
+      "at": 21.85,
+      "until": 25.45,
+      "hit": 21.85,
+      "stamp": "plot twist",
+      "head": "A tsunami",
+      "sub": "Nothing to do with xenon. Run!"
+    }
+  ],
+  "end": 25.95
+}

@@ -167,6 +167,7 @@ Pair it with the official [Remotion agent skills](https://www.remotion.dev/docs/
 | [**06 · What if all baddies disappeared for 5 seconds?**](examples/06-baddies-what-if/) | A joke one with real free-fall physics for what they drop, and a tsunami twist over the rooftops. 29 s, 9:16, one prompt and two answers. |
 | [**07 · What if Earth spun 2x faster for 20 seconds?**](examples/07-spin-what-if/) | You weigh 0.5% less, the oceans start sliding toward the equator, and when the spin stops they keep going: a real tsunami. 29.5 s, 9:16, one prompt. |
 | [**08 · What if all strontium disappeared for 5 seconds?**](examples/08-strontium-what-if/) | Fireworks night: every red star goes pale, purple comes out blue, the best clocks on Earth stop, and the stars still burning turn red again. 24 s, 9:16, one prompt. |
+| [**09 · What if all xenon disappeared for 5 seconds?**](examples/09-xenon-what-if/) | An open-air cinema goes black, a camera flash fires nothing next to a working phone flash, the air gets 2 billion tonnes lighter, and then (of course) a tsunami. 29 s, 9:16, one prompt. |
 | *yours?* | [Add it →](CONTRIBUTING.md) |
 
 ## Requirements
