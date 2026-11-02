@@ -1,0 +1,133 @@
+{
+  "duration": 32,
+  "fps": 30,
+  "slow": {
+    "start": 2.4,
+    "world": 5,
+    "s0": 0.1,
+    "s1": 0.6,
+    "pow": 1.5,
+    "in": 0.25,
+    "out": 0.6
+  },
+  "ff": {
+    "from": 21.55,
+    "to": 22.75,
+    "peak": 39
+  },
+  "quake": {
+    "at": 22.85,
+    "peak": 25.3,
+    "fade": 1.3,
+    "after": [
+      [27.3, 0.35],
+      [29.7, 0.25]
+    ]
+  },
+  "cam": [
+    [0.0, "friend", 74],
+    [2.3, "friend", 74],
+    [4.95, "friend", 70],
+    [5.55, "glass", 48],
+    [7.75, "glass", 48],
+    [8.3, "street", 70],
+    [10.6, "street", 70],
+    [11.2, "sky", 74],
+    [13.4, "sky", 74],
+    [14.0, "table", 62],
+    [16.2, "table", 62],
+    [16.8, "friend", 74],
+    [18.95, "friend", 74],
+    [19.5, "street", 72],
+    [21.5, "street", 72],
+    [22.6, "quake", 76],
+    [26.3, "quake", 76],
+    [26.9, "quake2", 74],
+    [32.0, "quake2", 74]
+  ],
+  "react": {
+    "look": 99,
+    "stop": 99,
+    "resume": 999
+  },
+  "pour": {
+    "lift": -2.9,
+    "tilt": -1.6,
+    "end": 1.6,
+    "down": 2.8
+  },
+  "panel": [
+    [8.3, 10.7, "sink"],
+    [11.15, 13.45, "orbit"],
+    [19.35, 21.5, "sink"],
+    [26.4, 29.1, "bell"]
+  ],
+  "captions": [
+    {
+      "at": 2.75,
+      "until": 5.0,
+      "hit": 2.4,
+      "head": "Gravity is 4x. You feel nothing",
+      "sub": "The ground falls toward Earth's core, and you fall with it."
+    },
+    {
+      "at": 5.6,
+      "until": 7.8,
+      "hit": 5.5,
+      "head": "The water still pours normally",
+      "sub": "Everything here falls together, like Einstein's lift."
+    },
+    {
+      "at": 8.4,
+      "until": 10.6,
+      "hit": 8.3,
+      "head": "The whole street is sinking",
+      "sub": "3x faster than a dropped stone: 370 m down in 5 s."
+    },
+    {
+      "at": 11.2,
+      "until": 13.4,
+      "hit": 11.1,
+      "head": "Satellites start falling",
+      "sub": "They're too slow for 4x gravity. The ISS's orbit dips 115 km."
+    },
+    {
+      "at": 14.0,
+      "until": 16.2,
+      "hit": 13.9,
+      "head": "The rock is being squeezed",
+      "sub": "A shrinking planet presses every continent from the sides."
+    },
+    {
+      "at": 16.8,
+      "until": 18.9,
+      "hit": 16.7,
+      "head": "Everyone is fine. For now.",
+      "sub": "Your weight never changed."
+    },
+    {
+      "at": 19.25,
+      "until": 21.45,
+      "hit": 19.07,
+      "head": "Gravity is back to normal",
+      "sub": "Earth isn't. It's still falling inward at 530 km/h."
+    },
+    {
+      "at": 22.9,
+      "until": 26.2,
+      "hit": 22.9,
+      "stamp": "+30 s",
+      "head": "Every fault on Earth breaks",
+      "sub": "The crust is squeezed far past what rock can take."
+    },
+    {
+      "at": 26.5,
+      "until": 29.0,
+      "hit": 26.5,
+      "stamp": "for weeks",
+      "head": "Earth rings like a bell",
+      "sub": "Shrinking and swelling by tens of km every 20 minutes."
+    }
+  ],
+  "end": 29.3
+}
