@@ -1,0 +1,122 @@
+{
+  "duration": 30.5,
+  "fps": 30,
+  "slow": {
+    "start": 2.4,
+    "world": 5,
+    "s0": 0.1,
+    "s1": 0.6,
+    "pow": 1.5,
+    "in": 0.25,
+    "out": 0.6
+  },
+  "ff": {
+    "from": 21.6,
+    "to": 22.6,
+    "peak": 560
+  },
+  "cam": [
+    [0.0, "friend", 74],
+    [2.3, "friend", 74],
+    [2.9, "can", 36],
+    [5.0, "can", 36],
+    [5.6, "facade", 62],
+    [7.75, "facade", 62],
+    [8.35, "road", 58],
+    [10.6, "road", 58],
+    [11.2, "ring", 26],
+    [13.4, "ring", 26],
+    [14.0, "pave", 66],
+    [16.2, "pave", 66],
+    [16.8, "bill", 56],
+    [18.9, "bill", 56],
+    [19.45, "can2", 48],
+    [20.9, "can2", 48],
+    [21.5, "road2", 62],
+    [22.6, "road2", 62],
+    [23.3, "north", 64],
+    [25.3, "wave2", 70],
+    [27.2, "wave3", 74],
+    [30.5, "wave3", 74]
+  ],
+  "react": {
+    "look": 99,
+    "stop": 99,
+    "resume": 99999
+  },
+  "pour": {
+    "lift": 90,
+    "tilt": 91,
+    "end": 92,
+    "down": 93
+  },
+  "tsunami": {
+    "at": 22.75,
+    "hit": 27.2,
+    "z0": -48,
+    "z1": -1.8,
+    "h0": 5.5,
+    "h1": 7.0
+  },
+  "panel": [],
+  "captions": [
+    {
+      "at": 2.75,
+      "until": 5.0,
+      "hit": 2.4,
+      "head": "Every can vanishes",
+      "sub": "The drink keeps its shape for an instant, then falls."
+    },
+    {
+      "at": 5.6,
+      "until": 7.8,
+      "hit": 5.5,
+      "head": "Glass walls fall out",
+      "sub": "Their frames are aluminium. Every pane drops."
+    },
+    {
+      "at": 8.4,
+      "until": 10.6,
+      "hit": 8.3,
+      "head": "Cars sink onto their brakes",
+      "sub": "Alloy wheels are aluminium. Steel scrapes the road."
+    },
+    {
+      "at": 11.2,
+      "until": 13.4,
+      "hit": 11.1,
+      "head": "Sapphires vanish",
+      "sub": "A sapphire is aluminium oxide. So is a ruby."
+    },
+    {
+      "at": 14.0,
+      "until": 16.2,
+      "hit": 13.9,
+      "head": "The ground cracks",
+      "sub": "Earth's crust is 8% aluminium, locked into rock and concrete."
+    },
+    {
+      "at": 16.8,
+      "until": 18.9,
+      "hit": 16.7,
+      "head": "The power goes out",
+      "sub": "Most long-distance power lines are aluminium."
+    },
+    {
+      "at": 19.25,
+      "until": 21.2,
+      "hit": 19.07,
+      "head": "Aluminium is back",
+      "sub": "Right where it was. The damage stays."
+    },
+    {
+      "at": 22.9,
+      "until": 26.9,
+      "hit": 22.9,
+      "stamp": "+6 min",
+      "head": "Then the tsunami",
+      "sub": "Weakened seabed slopes slide, and slides make tsunamis."
+    }
+  ],
+  "end": 27.5
+}

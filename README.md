@@ -169,6 +169,7 @@ Pair it with the official [Remotion agent skills](https://www.remotion.dev/docs/
 | [**08 · What if all strontium disappeared for 5 seconds?**](examples/08-strontium-what-if/) | Fireworks night: every red star goes pale, purple comes out blue, the best clocks on Earth stop, and the stars still burning turn red again. 24 s, 9:16, one prompt. |
 | [**09 · What if all xenon disappeared for 5 seconds?**](examples/09-xenon-what-if/) | An open-air cinema goes black, a camera flash fires nothing next to a working phone flash, the air gets 2 billion tonnes lighter, and then (of course) a tsunami. 29 s, 9:16, one prompt. |
 | [**10 · What if Earth's gravity quadrupled for 5 seconds?**](examples/10-gravity-what-if/) | The twist: you feel nothing, because the ground falls toward the core and you fall with it. The after-effects are the disaster: every fault breaks and Earth rings like a bell for weeks. 32 s, 9:16, one prompt. |
+| [**11 · What if all aluminium disappeared for 5 seconds?**](examples/11-aluminium-what-if/) | The cola holds the shape of its vanished can, a glass wall drops out of its frames, a car grinds on its brakes; when aluminium returns the damage stays, and a tsunami follows. 30.5 s, 9:16, one prompt. |
 | *yours?* | [Add it →](CONTRIBUTING.md) |
 
 ## Requirements
